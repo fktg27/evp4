@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(35, 120, 120);
+}
+main {
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+#titulo {
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin: 0 auto;
+ background-color: blueviolet;
+ width: 100%;
+ height: auto;
+ color: rgb(202, 198, 198);
+ border-bottom: 1px solid #000000;
+}
+div{
+  height: auto;
+   width: 100%;
+    background-color: blue;
+    margin: 0 auto;
+    color: rgb(202, 198, 198);
+    justify-content: center;
+   text-align: center;
+}
+p{
+    font-size:25px;
+    margin: 5px;
+}
+button{
+    height: 50px;
+    border-radius: 15px;
+    background-color: aqua;
+    border: 1px solid;
+   
+}
+ul{
+    margin: 0 auto;
+}

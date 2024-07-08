@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(35, 120, 120);
+}
+main {
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
+#titulo {
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin: 0 auto;
+ background-color: blueviolet;
+ width: 100%;
+ height: auto;
+ color: rgb(202, 198, 198);
+ border-bottom: 1px solid black;
+}
+div{
+    display: flex;
+    width: 100%;
+    height:auto;
+    background-color: blue;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    color: rgb(202, 198, 198);
+}
+

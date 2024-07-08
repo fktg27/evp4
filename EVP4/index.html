@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <main>
+        <div id="titulo">
+            <h1>1.	Utilizando el bucle do while: Ingresar 2 números y mostrar el cubo de todos los números impares comprendidos entre ellos inclusive.” (4 puntos)</h1>
+        </div>    
+        <div>
+            <script>
+                var num1,num2;
+
+num1=parseInt(prompt("ingrese un numero"));
+num2=parseInt(prompt("ingrese un numero distinto al anterior"));
+
+
+   if (num1<num2) {
+    num1=num1-1;
+    do {
+      
+      num1++;
+      
+      if (num1%2 !==0) {
+          document.write("el cubo de "+num1+" es: "+(num1**3)+"<br>")
+          
+      }
+  
+    } while (num1<num2);  
+   } else {
+    num2=num2-1;
+    do {
+      
+      num2++;
+      
+      if (num2%2 !==0) {
+          document.write("el cubo de "+num2+" es: "+(num2**3)+"<br>")
+          
+      }
+  
+    } while (num2<num1);  
+   } 
+            </script>
+          </div>
+    </main>
+</body>
+</html>

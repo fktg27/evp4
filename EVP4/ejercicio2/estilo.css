@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    background-color: #b9c332; 
+    font-family: Arial, sans-serif;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+}
+li{
+    
+    margin: 10px;
+    
+}
+#min-max{
+    text-align: center;
+    border: red solid 2px;
+    background-color: green;
+    color: white;
+    
+}
+#numeros-lista{
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario label,.formulario input {
+display: block;
+margin-bottom: 10px;
+}
+#mostrar {
+    display: block;
+    margin: 0 auto;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#mostrar:hover{
+    background-color: green;
+}
+#demo{
+    background-color: black;
+}
+
+/*#numeros-lateral {
+    float: right;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #888;
+}
